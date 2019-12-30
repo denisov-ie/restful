@@ -5,26 +5,7 @@ public class CarDTO {
     private String carVIN;
     private String carManufacturer;
     private String carModel;
-    private String result;
-    private int id;
     private int carPrice;
-    private int count;
-
-    public String getResult() {
-        return result;
-    }
-
-    public void setResult(String result) {
-        this.result = result;
-    }
-
-    public int getCount() {
-        return count;
-    }
-
-    public void setCount(int count) {
-        this.count = count;
-    }
 
     public String getCarVIN() {
         return carVIN;

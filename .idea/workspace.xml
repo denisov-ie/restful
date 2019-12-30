@@ -8,16 +8,16 @@
       <change afterPath="$PROJECT_DIR$/.idea/libraries/h2_1_4_200.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/SpringBootRestService.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lib/h2-1.4.200.jar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/springboot/Application.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/springboot/CarDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/springboot/CarDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/springboot/CarINTERFACE.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/springboot/CarREST.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/target" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/springboot/CarDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springboot/CarDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/springboot/CarINTERFACE.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springboot/CarINTERFACE.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/springboot/CarREST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/springboot/CarREST.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

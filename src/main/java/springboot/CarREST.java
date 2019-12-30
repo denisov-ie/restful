@@ -4,6 +4,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.sql.Array;
 import java.sql.SQLException;
+import java.util.ArrayList;
 import java.util.List;
 
 @RestController
@@ -21,7 +22,7 @@ public class CarREST {
     }
 
     @GetMapping("/showcar/{method}/{search}")
-    public CarDTO carShow(@PathVariable String method, @PathVariable String search) {
+    public ArrayList<CarDTO> carShow(@PathVariable String method, @PathVariable String search) {
         return carInterface.dbShowCars(method, search);
     }
 

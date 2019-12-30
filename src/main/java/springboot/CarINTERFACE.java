@@ -4,6 +4,7 @@ import org.json.JSONObject;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.ArrayList;
 
 public class CarINTERFACE {
 
@@ -12,15 +13,19 @@ public class CarINTERFACE {
 
     public int dbInfo() throws SQLException {
         ResultSet resultSet = carDAO.dbCount("CARS");
-        carDTO.setCount(0);
+        int i = 0;
         while (resultSet.next()){
-            carDTO.setCount(resultSet.getInt(1));
+            i = resultSet.getInt(1);
         }
-        return carDTO.getCount();
+        return i;
     }
 
-    public CarDTO dbShowCars(String method, String search){
+    public ArrayList<CarDTO> dbShowCars(String method, String search){
         ResultSet resultSet = carDAO.dbShowCars(method, search);
+        while (resultSet.next()){
+            carDTO.setCarManufacturer(resultSet.);
+        }
+
 
     }
 
